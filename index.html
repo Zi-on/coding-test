@@ -8,23 +8,32 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="header">
+    <section class="header">
         <button id="viewhighscore" type="button">View Highscores</button>
         <div class="time">
         <p id="time">time</p>
         </div>
-    </div>
+    </section>
 
-    <div class="body-container">
+    <section class="body-container">
         <div class="test-container">
-        <h1 class="main-text">Coding Test</h1>
-        <p class="body-text">You have 1 minute to answer as many code related questions as possible.
-            If you answer incorrectly; 10 seconds will be deduced from the timer. GOODLUCK!
-        </p>
-        <button id="start">Start</button>
-    </div>
+            <h1 class="main-text">Coding Test</h1>
+            <p class="body-text">You have 1 minute to answer as many code related questions as possible.
+                If you answer incorrectly; 10 seconds will be deduced from the timer. GOODLUCK!
+            </p>
+            <button id="start">Start</button>
+        </div>
+        <div class="questions-container">
+            <h1 id="question">question</h1>
+            <ul class="answerChoices">
+                <li class="choice" id="A">filler</li>
+                <li class="choice" id="B">filler</li>
+                <li class="choice" id="C">filler</li>
+                <li class="choice" id="D">filler</li>
+            </ul>
+        </div>
 
-    </div>
+    </section>
 <script src="./assets/js/script.js"></script>
 </body>
 </html>
