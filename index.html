@@ -17,19 +17,19 @@
 
     <section class="body-container">
         <div class="test-container">
-            <h1 class="main-text">Coding Test</h1>
-            <p class="body-text">You have 1 minute to answer as many code related questions as possible.
+            <h1 class="main-text" id="startScreen">Coding Test</h1>
+            <p class="body-text" id="startScreenText">You have 1 minute to answer as many code related questions as possible.
                 If you answer incorrectly; 10 seconds will be deduced from the timer. GOODLUCK!
             </p>
-            <button id="start">Start</button>
+            <button class="start" id="start">Start</button>
         </div>
         <div class="questions-container">
-            <h1 id="question">question</h1>
-            <ul class="answerChoices">
-                <li class="choice" id="A">filler</li>
-                <li class="choice" id="B">filler</li>
-                <li class="choice" id="C">filler</li>
-                <li class="choice" id="D">filler</li>
+            <h1 class="question hide" id="question">question</h1>
+            <ul id="answerChoices" class="answerChoices hide">
+                <button class="choice" id="A">filler</button>
+                <button class="choice" id="B">filler</button>
+                <button class="choice" id="C">filler</button>
+                <button class="choice" id="D">filler</button>
             </ul>
         </div>
 
