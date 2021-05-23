@@ -4,3 +4,5 @@ this website is a six question coding test. clicking start initializes the test 
 failing to complete the test in the given time will render the test incomplete.
 
 <img src="./assets/pictures/coding-test.png" alt="Coding">
+
+deployed site: https://zi-on.github.io/coding-test/
